@@ -1,0 +1,115 @@
+/* Logo Tasarımı */
+.logo{
+    width: 100px;
+    height:auto; 
+}
+/* Logo Tasarımı Sonu */
+
+/* Search Barı Tasarımı */
+.search-icon{
+    font-size:15px;
+    color: rgb(190, 190, 190);
+}
+.search{
+    background-color: #fafafa;
+    height:25px;
+    margin-left: 200px;
+}
+
+input::placeholder{
+    background-image: url(/assets/search.svg);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 30%;
+    font-size: 12px;   
+}
+/* Search Barı Tasarımı Sonu */
+
+.profile-photo{
+    height:25px;
+    width:auto;
+    border-radius: 100%;
+}
+.storyphoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-right: 7px;
+  }
+  .storytext {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    color: black;
+  }
+
+
+.container{
+    width: 75%;
+}
+
+.mid{
+    margin-top:7%
+}
+
+/* Sağ Panel Tasarımı */
+.rightpaneluserphoto{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgb(238, 39, 82);
+    margin-left: -15px;
+}
+.rightpanelusertext{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: black;
+    position:relative;
+    top:-10px;
+    margin-left: 20px;
+}
+.seeall{
+    text-decoration: none;
+    color: black;
+}
+.postuserfont {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: black;
+  }
+  .removeunderline{
+      text-decoration: none !important;
+  }
+  .fr{
+      float:right;
+  }
+  .rightpanel{
+      position: fixed;
+  }
+  .rightpanellinks {
+    text-decoration: none;
+    color: #d1d1d1;
+  }
+  .rightpanellinks:hover{
+    color: #d1d1d1;
+  }
+ .dot{
+    display: inline-block;
+    margin: 2px;
+    height: 2px;
+    width: 2px;
+    border-radius:100%;
+    background-color: #d1d1d1;
+ }
+ /* Sağ Panel Tasarımı Sonu */
+
+ body {
+     background-color: #fafafa;
+ }
+.navbar{
+    background-color: white !important;
+}
+
+.card-header, .card-footer {
+    background-color: white !important;
+}
